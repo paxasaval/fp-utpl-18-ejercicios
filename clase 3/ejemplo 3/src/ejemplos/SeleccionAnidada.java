@@ -31,7 +31,7 @@ public class SeleccionAnidada {
         calificacion = entrada.nextDouble();
                               
 
-        if (calificacion >= 90) {
+        if (calificacion >= 90 && calificacion<=100) {
             System.out.printf("Estudiante: "+ nombre +" "+ apellido+ " ");
             System.out.printf("Usted está aprobado (excelente) con %f\n", calificacion);
         } else {
