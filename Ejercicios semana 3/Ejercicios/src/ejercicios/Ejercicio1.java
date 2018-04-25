@@ -45,7 +45,7 @@ public class Ejercicio1 {
                 System.out.println("Domingo");
                 break;
             default:
-                System.out.println("El numerono pertenece al rngo solicitado");
+                System.out.println("El numero no pertenece al rango solicitado");
         }     
         
     }
