@@ -60,7 +60,6 @@ public class Ejercicio2 {
         System.out.printf("Cantidad de celulares: %d\n", num);
         System.out.printf("Subtotal a pagar: %f.\n", subt);
         System.out.printf("Descuento: %f.\n", desc);
-        System.out.printf("Valor final a pagar: %f.\n", total);
-                                
+        System.out.printf("Valor final a pagar: %f.\n", total);   
     }
 }     
