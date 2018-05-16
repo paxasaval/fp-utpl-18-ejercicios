@@ -53,7 +53,6 @@ public class RepasoCicloWhile {
            
            subt=subt+precio_total;
            
-           
            entrada.nextLine();
            
            System.out.println("Desea ingresar un articulo (S/N): ");
@@ -66,11 +65,11 @@ public class RepasoCicloWhile {
        }
        iva=0.14*subt;
        total=subt+iva; 
-       System.out.printf("\tFactura\n");
-       System.out.printf("Supermercado todo a menor precio\n");
+       System.out.printf("\n\t\t\tFactura\n");
+       System.out.printf("Supermercado ''todo a menor precio'' \n");
        System.out.printf("Nombre del cliente: %s\n", nombre);
        System.out.printf("%s",cadenafinal);
-       System.out.printf("\t\t\t\tSubtotal\t%.2f\n", subt);
+       System.out.printf("\n\t\t\t\tSubtotal\t%.2f\n", subt);
        System.out.printf("\t\t\t\tI.V.A\t\t%.2f\n", iva);
        System.out.printf("\t\t\t\tTotal\t\t%.2f\n", total);
        
