@@ -19,6 +19,7 @@ public class RepasoCicloWhile {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
+        
         boolean articulo;
         String opcion;
         String art_name;
@@ -40,6 +41,7 @@ public class RepasoCicloWhile {
            }else{
                articulo=false;
            }         
+           
        while (articulo){
            System.out.println("Ingrese el nombre del articulo: ");
            art_name=entrada.nextLine();
@@ -66,7 +68,7 @@ public class RepasoCicloWhile {
        iva=0.14*subt;
        total=subt+iva; 
        System.out.printf("\n\t\t\tFactura\n");
-       System.out.printf("Supermercado ''todo a menor precio'' \n");
+       System.out.printf("Supermercado ''Todo a menor precio'' \n");
        System.out.printf("Nombre del cliente: %s\n", nombre);
        System.out.printf("%s",cadenafinal);
        System.out.printf("\n\t\t\t\tSubtotal\t%.2f\n", subt);
