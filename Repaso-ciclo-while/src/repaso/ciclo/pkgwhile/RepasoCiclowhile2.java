@@ -30,7 +30,7 @@ public class RepasoCiclowhile2 {
         int otros = 0;
         double total_impuestos = 0;
         double total_pv = 0;
-        String cadenafinal = String.format("%s\t\t\t%s\t\t\t%s\t\t%s\t\t%s\n", "Marca", "Origen", "Costo", "Impuesto", "Precio Venta");
+        String cadenafinal = String.format("%s\t\t\t%s\t\t\t%s\t\t\t%s\t\t%s\n", "Marca", "Origen", "Costo", "Impuesto", "Precio Venta");
 
         System.out.println("Ingrese la cantidad de vehiculos: ");
         num = entrada.nextInt();
