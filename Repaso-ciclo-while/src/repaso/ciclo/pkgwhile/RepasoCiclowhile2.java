@@ -75,9 +75,9 @@ public class RepasoCiclowhile2 {
         System.out.printf("\t\t\tReporte de Autos Importados\n");
         System.out.printf("%s", cadenafinal);
         System.out.printf("\nTotal Autos\t%d\t\tTot. Imps\t%.2f\t\tTot. PV\t%.2f\n", num, total_impuestos, total_pv);
-        System.out.printf("\nArgentina\t%d\n", argentina);
-        System.out.printf("Colombia\t%d\n", colombia);
-        System.out.printf("Chile\t%d\n", chile);
+        System.out.printf("\nArgentina \t%d\n", argentina);
+        System.out.printf("Colombia    \t%d\n", colombia);
+        System.out.printf("Chile       \t%d\n", chile);
         System.out.printf("Otros Paises\t%d\n", otros);
 
     }
