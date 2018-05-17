@@ -3,32 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package semana.pkg4;
-
-import java.util.Scanner;
+package taller1.primerbimestre;
 
 /**
  *
  * @author User
  */
-public class Semana4 {
+public class Ejercicio1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int edad=0;
-        int contador=1;
-        int suma=0;
-        System.out.printf("Edad \tSuma\n");
-        while(contador<=4){
-            suma = suma +contador;
-            System.out.printf("%d\t\t%d\n",contador,suma);
-            contador=contador+1;
-            
-        }
     }
     
 }
